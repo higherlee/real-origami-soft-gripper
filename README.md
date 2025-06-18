@@ -1,7 +1,6 @@
 ## Introduction
 Soft grippers are typically made of silicone and are expensive to manufacture. In this project, our team designed and implemented soft grippers for vegetable harvesting at a cost of **less than $130 (100,000 KRW).**
 
-
 ## Literature review
 
 <figure>
@@ -16,7 +15,6 @@ Soft grippers are typically made of silicone and are expensive to manufacture. I
 
 Our team reviewed lots of papers, including those on grippers using shape memory sponges, but we needed to find a cost-effective solution.
 Inspired by a vacuum-driven origami ‘magic-ball’ soft gripper, we came up with the idea of implementing a gripper **by folding real paper.**
-
 
 ## Implementation process
 <img width="600" alt="shape" src="https://github.com/user-attachments/assets/e2267aa5-9076-46b8-b4bd-2589e8901f91" />
@@ -33,7 +31,6 @@ Initially, we considered using balloons to replace the silicone part, but since 
 <img width="600" alt="final_shape_1" src="https://github.com/user-attachments/assets/e4231bf6-8986-4e52-b293-765424db1abd" />
 
 The structure is designed so that pulling a fishing line through a small hole in the paper produces the same force as applied through the holes on the other side.
-
 
 ## Analyze gripper performance
 
@@ -74,14 +71,14 @@ In order to respect portrait rights, I'm sharing a partial version of the demo v
 ## Gripper Software
 <img width="600" alt="qt" src="https://github.com/user-attachments/assets/159138eb-4f6d-488c-b79d-3d62dc182d2c" />
 
+Implemented to run without significant GUI changes in various environments.
+
+<br/>
 <img width="600" alt="class_diagram" src="https://github.com/user-attachments/assets/ecf1b22f-bfcd-4f21-93de-3068764df13d" />
 
-Implemented to run without significant GUI changes in various environments
-
-
+Class diagram is as above.
 
 ## Additional info
 <img width="600" alt="hardware" src="https://github.com/user-attachments/assets/fce43304-8238-409d-954b-57baa3390553" />
 
-
-Hardware information
+Hardware information is as above.
